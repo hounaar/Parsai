@@ -5,9 +5,25 @@
 
 Parsai combines a powerful VS Code extension and a Telegram bot to provide versatile coding assistance using OpenAI's GPT-4. 
 
-## Projects
+## Distributions
 
-### 1. Parsai VS Code Extension
+### 1. Parsai Google Chrome Extension
+This Chrome Extension, which uses GPT-4,  helps you by responding to your queries.
+
+#### Features
+- **Ask GPT-4**: Enter your questions and get responses directly from GPT-4.
+- **Syntax Highlighting**: Responses are formatted and highlighted based on the detected programming language.
+- **Dark Theme**: The extension features a sleek dark theme with black and dark purple colors.
+
+#### Chrome Extension
+1. **Download the Source Code**: Download the source code from the [Releases](https://github.com/your-username/parsai/releases) page.
+2. **Extract the Zip File**: Extract the downloaded zip file.
+3. **Load Unpacked Extension**:
+   - Open Chrome and navigate to `chrome://extensions/`.
+   - Enable Developer Mode by toggling the switch in the top right corner.
+   - Click on `Load unpacked` and select the extracted directory.
+
+### 2. Parsai VS Code Extension
 
 The Parsai VS Code extension allows you to ask questions and get code suggestions directly within your VS Code editor.
 
@@ -43,7 +59,7 @@ The Parsai VS Code extension allows you to ask questions and get code suggestion
 3. Enter your question when prompted.
 4. The response will be displayed in a new editor with appropriate syntax highlighting.
 
-### 2. Parsai Telegram Bot
+### 3. Parsai Telegram Bot
 
 The Parsai Telegram bot allows you to ask coding questions and receive answers on the go.
 #### ATTENTION: IN THE TELEGRAM BOT, THE VALID WORKING HOURS ARE BETWEEN 9 AM - 12 PM CENTRAL EUROPEAN SUMMER TIME.
