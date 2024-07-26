@@ -35,17 +35,10 @@ The Parsai VS Code extension allows you to ask questions and get code suggestion
 
 #### Installation
 
-##### From Visual Studio Code Marketplace
-
-1. Open Visual Studio Code.
-2. Go to the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window or pressing `Ctrl+Shift+X`.
-3. Search for `Parsai`.
-4. Click `Install`.
-5. <a href="https://marketplace.visualstudio.com/items?itemName=Parsai.parsai">Vscode Marketplace</a>
 
 ##### From VSIX
 
-1. Download the latest `.vsix` file from the [Releases](https://github.com/your-username/parsai/releases) page.
+1. Download the latest `.vsix` file from the [Releases](https://github.com/your-username/parsai/releases) page. Or you can simply clone this repository and have the `.vsix` file in the root directory.
 2. Open Visual Studio Code.
 3. Go to the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window or pressing `Ctrl+Shift+X`.
 4. Click on the `...` (More Actions) button in the upper right corner of the Extensions view.
