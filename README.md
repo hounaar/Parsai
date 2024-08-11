@@ -1,7 +1,7 @@
 
 <img src='https://github.com/parsabe/Parsai/blob/main/main.jpg'>
 
-# Parsai - GPT-4 Powered Code Assistant
+# Parsai - GPT-4 Powered Assistant
 
 Parsai combines a powerful VS Code extension and a Telegram bot to provide versatile coding assistance using OpenAI's GPT-4. 
 
