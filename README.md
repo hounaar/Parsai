@@ -53,5 +53,48 @@ TELEGRAM_API_KEY = '' #Telgram Bot Access Token
    <img src='https://github.com/parsabe/Parsai/blob/main/telegram.jpg'>
    <br/>
 
-# Just so you know, you are going to need the TOKEN OF CHATP-GPT 4 TO CHROME EXTENSION AND THE TELEGRAM BOT BOTH FUNCTION WELL.
+
+### 3. Firefox Extension
+
+#### Step 1: Prepare Your Extension Files
+Ensure your extension files (`manifest.json`, `popup.html`, `popup.js`, `styles.css`, etc.) are complete and properly configured. If needed, include the updated `browser_specific_settings` field in the `manifest.json` for Firefox compatibility.
+
+#### Step 2: Open Firefox Developer Tools
+1. Launch **Firefox Developer Edition** or **Firefox Nightly**.
+   - These are ideal for extension development and testing.
+   - Regular Firefox works too, but some features may be restricted.
+
+#### Step 3: Navigate to Debugging Page
+1. Open a new tab.
+2. Go to `about:debugging`.
+3. Click on **"This Firefox"** (or **"This Nightly"** if using Nightly).
+
+#### Step 4: Load the Extension
+1. Click on **"Load Temporary Add-on"**.
+2. Navigate to your extension’s folder.
+3. Select any file in the extension directory (e.g., `manifest.json`).
+4. Firefox will load the extension temporarily.
+
+### 4. Microsoft Edge Extension
+
+#### Step 1: Prepare Your Extension Files
+Ensure your extension files (`manifest.json`, `popup.html`, `popup.js`, `styles.css`, etc.) are complete and properly configured. Edge supports WebExtension APIs, so your extension’s `manifest.json` should already be compatible. Double-check permissions and ensure everything is in place.
+
+#### Step 2: Open Edge Extensions Page
+1. Launch **Microsoft Edge**.
+2. Open a new tab and go to `edge://extensions/`.
+3. Enable **Developer mode** by toggling the switch in the bottom left corner.
+
+#### Step 3: Load Your Extension
+1. Click on **"Load unpacked"**.
+2. Navigate to your extension’s folder.
+3. Select the folder containing your extension files (not an individual file).
+
+#### Step 4: Test Your Extension
+1. The extension’s icon should now appear in the Edge toolbar.
+2. Click the icon to open and test your extension.
+3. Verify all functionality, including inputs, buttons, and API calls.
+
+
+
 
