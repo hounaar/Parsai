@@ -18,7 +18,13 @@ This Chrome Extension, which uses GPT-4,  helps you by responding to your querie
 #### Chrome Extension
 1. **Download the Source Code**: Download the source code from the [Releases](https://github.com/your-username/parsai/releases) page.
 2. **Extract the Zip File**: Extract the downloaded zip file.
-3. **Load Unpacked Extension**:
+3. **OpenAI API key**: Go to <a href='https://platform.openai.com/settings/organization/api-keys'>OpenAI API Document</a> and get your OpenAI key.
+4. **Paste** : Paste your OpenAI key in the popup.js code here:
+```js
+const OPENAI_API_KEY = ''; //openAI API Key
+```
+
+5. **Load Unpacked Extension**:
    - Open Chrome and navigate to `chrome://extensions/`.
    - Enable Developer Mode by toggling the switch in the top right corner.
    - Click on `Load unpacked` and select the extracted directory.
