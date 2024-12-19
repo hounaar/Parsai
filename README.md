@@ -26,9 +26,7 @@ This Chrome Extension, which uses GPT-4,  helps you by responding to your querie
 
 
 ### 2. Parsai Telegram Bot
-
-The Parsai Telegram bot allows you to ask coding questions and receive answers on the go.
-#### ATTENTION: IN THE TELEGRAM BOT, THE VALID WORKING HOURS ARE BETWEEN 9 AM - 12 PM CENTRAL EUROPEAN SUMMER TIME.
+The Parsai Telegram bot allows you to ask coding questions and receive answers.
 
 #### Features
 
@@ -36,13 +34,16 @@ The Parsai Telegram bot allows you to ask coding questions and receive answers o
 - Easy to use and accessible from anywhere.
 
 #### Setup
+1. Go to <a href='https://platform.openai.com/settings/organization/api-keys'>OpenAI API Document</a>#
+2. Download the python code from here
+3. Copy the OpenAI code you genereated and paste here:
+```py
 
-1. Just install Telegram and click on the link below.
-<a href="https://t.me/Parssaibot">Parsai Telegram Bot</a>
-2. Then Press on start
+```
+5. Then Press on start
 
    <img src='https://github.com/parsabe/Parsai/blob/main/telegram.jpg'>
    <br/>
 
-
+# Just so you know, you are going to need the TOKEN OF CHATP-GPT 4 TO CHROME EXTENSION AND THE TELEGRAM BOT BOTH FUNCTION WELL.
 
