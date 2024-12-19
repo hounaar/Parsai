@@ -15,7 +15,7 @@ This Chrome Extension, which uses GPT-4,  helps you by responding to your querie
 - **Syntax Highlighting**: Responses are formatted and highlighted based on the detected programming language.
 - **Dark Theme**: The extension features a sleek dark theme with black and dark purple colors.
 
-#### Chrome Extension
+#### Setup
 1. **Download the Source Code**: Download the source code from the [Releases](https://github.com/your-username/parsai/releases) page.
 2. **Extract the Zip File**: Extract the downloaded zip file.
 3. **OpenAI API key**: Go to <a href='https://platform.openai.com/settings/organization/api-keys'>OpenAI API Document</a> and get your OpenAI key.
@@ -56,8 +56,17 @@ TELEGRAM_API_KEY = '' #Telgram Bot Access Token
 
 ### 3. Firefox Extension
 
-#### Step 1: Prepare Your Extension Files
+#### Step 0: Prepare Your Extension Files
 Ensure your extension files (`manifest.json`, `popup.html`, `popup.js`, `styles.css`, etc.) are complete and properly configured. If needed, include the updated `browser_specific_settings` field in the `manifest.json` for Firefox compatibility.
+
+#### Step 1: OpenAI Setup
+1. **Download the Source Code**: Download the source code from the [Releases](https://github.com/your-username/parsai/releases) page.
+2. **Extract the Zip File**: Extract the downloaded zip file.
+3. **OpenAI API key**: Go to <a href='https://platform.openai.com/settings/organization/api-keys'>OpenAI API Document</a> and get your OpenAI key.
+4. **Paste** : Paste your OpenAI key in the popup.js code here:
+```js
+const OPENAI_API_KEY = ''; //openAI API Key
+```
 
 #### Step 2: Open Firefox Developer Tools
 1. Launch **Firefox Developer Edition** or **Firefox Nightly**.
@@ -77,8 +86,17 @@ Ensure your extension files (`manifest.json`, `popup.html`, `popup.js`, `styles.
 
 ### 4. Microsoft Edge Extension
 
-#### Step 1: Prepare Your Extension Files
+#### Step 0: Prepare Your Extension Files
 Ensure your extension files (`manifest.json`, `popup.html`, `popup.js`, `styles.css`, etc.) are complete and properly configured. Edge supports WebExtension APIs, so your extension’s `manifest.json` should already be compatible. Double-check permissions and ensure everything is in place.
+
+#### Step 1: OpenAI Setup
+1. **Download the Source Code**: Download the source code from the [Releases](https://github.com/your-username/parsai/releases) page.
+2. **Extract the Zip File**: Extract the downloaded zip file.
+3. **OpenAI API key**: Go to <a href='https://platform.openai.com/settings/organization/api-keys'>OpenAI API Document</a> and get your OpenAI key.
+4. **Paste** : Paste your OpenAI key in the popup.js code here:
+```js
+const OPENAI_API_KEY = ''; //openAI API Key
+```
 
 #### Step 2: Open Edge Extensions Page
 1. Launch **Microsoft Edge**.
