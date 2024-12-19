@@ -34,11 +34,13 @@ The Parsai Telegram bot allows you to ask coding questions and receive answers.
 - Easy to use and accessible from anywhere.
 
 #### Setup
-1. Go to <a href='https://platform.openai.com/settings/organization/api-keys'>OpenAI API Document</a>#
-2. Download the python code from here
-3. Copy the OpenAI code you genereated and paste here:
+1. Go to <a href='https://platform.openai.com/settings/organization/api-keys'>OpenAI API Document</a>
+2. Download the Python code from here
+3. Install telegram and go to <a href='https://t.me/BotFather'>Telegram BotFather (bot creator)</a>
+4. Copy the both OpenAI API and Telegram bot you set and paste them here:
 ```py
-
+OPENAI_API_KEY = '' #OpenAI API Code
+TELEGRAM_API_KEY = '' #Telgram Bot Access Token
 ```
 5. Then Press on start
 
