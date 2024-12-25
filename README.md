@@ -50,7 +50,7 @@ TELEGRAM_API_KEY = '' #Telgram Bot Access Token
 ```
 5. Then Press on start
 
-   <img src='https://github.com/parsabe/Parsai/blob/main/telegram.jpg'>
+>
    <br/>
 
 
